@@ -5,7 +5,6 @@ sDay<-preDays[preDays$Date=="2007-02-02",]
 twoDays<-rbind(fDay,sDay)
 ##twoDays$Time<-strptime(twoDays$Time, "%H:%M:%S")
 dateTime <- as.POSIXlt(paste(twoDays$Date, twoDays$Time), format="%Y-%m-%d %H:%M:%S")
-##scale_datetime(breaks = date_breaks("1 day"))
 gap<-twoDays[,3]
 plot(dateTime,gap,type="l", xlab="", ylab="Global Active Power (kilowatts")
 dev.copy(png, file= "plot2.png")
