@@ -88,27 +88,30 @@ When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
+The plots were created by reading all the data into table, the dates were then 
+converted to date class objects. The observations for the needed dates were subset 
+out and then the date and time were pasted together and converted to POSIXlt objects
 
-The four plots that you will need to construct are shown below. 
+
 
 
 ### Plot 1
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot1.R](plot1.png) 
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot2.R](plot2.png) 
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot3.R](plot3.png) 
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot4.R](plot4.png) 
 
